@@ -524,6 +524,29 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-container{
+  align-items: baseline;
+}
+
+.footer-site-info{
+  margin-right: 120px;
+}
+
+.footer-social-p{
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-bg-white);
+  margin-bottom: 16px;
+}
+
+.footer-social{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
 
 /* Formalization footer*/
 
