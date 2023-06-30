@@ -507,12 +507,17 @@ img {
 .customers-link:hover,
 .customers-link:focus{
   border-color:#404bbf;
-  color: #404bbf;
+  background-color: #404bbf;
   cursor: pointer; 
 }
 
 .customers-icon{
   fill:currentColor;
+}
+
+.customers-icon:hover,
+.customers-icon:focus{
+  fill: #f4f4fd;
 }
 
 
