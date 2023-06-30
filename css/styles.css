@@ -526,6 +526,7 @@ img {
 
 .footer-container{
   align-items: baseline;
+  display: flex;
 }
 
 .footer-site-info{
