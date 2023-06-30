@@ -506,13 +506,13 @@ img {
 
 .customers-link:hover{
   border-color:#404bbf;
-  color: #404bbf;
+  color:#404bbf;
   cursor: pointer; 
 }
 
 .customers-link:focus{
-  border-color: #404bbf;
-  color: #404bbf;
+  border-color:#404bbf;
+  color:#404bbf;
 }
 
 .customers-icon{
