@@ -523,6 +523,18 @@ img {
   color: #404bbf;
 }
 
+.clients-list-item:hover,
+.clients-list-item:hover{
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.clients-list:hover,
+.clients-list:hover{
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
 .customers-icon {
   fill: currentColor;
 }
