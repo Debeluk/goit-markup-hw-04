@@ -119,7 +119,7 @@ footer .logo-studio:focus {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/backgroundhero.jpg);          
+    url(./images/backgroundhero.jpg);          
   background-repeat: no-repeat;
   max-width: 1440px;                                                  /* Не рівний background */
   background-position: center;
