@@ -94,7 +94,7 @@ footer .logo-studio:focus {
   width: 100%;
   left: 0px;
   height: 4px;
-  bottom: -1px;
+  bottom: -3px;
   border-radius: 2px;
   background-color: #404bbf;
   position: absolute;
@@ -135,6 +135,7 @@ footer .logo-studio:focus {
   background: #4d5ae5;
   cursor: pointer;
   color: #ffffff;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -501,7 +502,7 @@ img {
 
 .clients-list-item {
   width: calc((100% - 120px) / 6);
-  height: 88px;
+  height: 86px;
 }
 
 .customers-link {
@@ -530,6 +531,7 @@ img {
 
 .customers-icon {
   fill: currentColor;
+  flex-shrink: 0;
 }
 
 .customers-icon:hover,
@@ -653,7 +655,16 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-link:hover .picture-p {
+  transform: translateY(0%);
+}
+
+.portfolio-link:focus .picture-p {
   transform: translateY(0%);
 }
 
