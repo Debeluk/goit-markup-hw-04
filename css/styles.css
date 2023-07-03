@@ -94,7 +94,7 @@ footer .logo-studio:focus {
   width: 100%;
   left: 0px;
   height: 4px;
-  bottom: -3px;
+  bottom: -1px;
   border-radius: 2px;
   background-color: #404bbf;
   position: absolute;
@@ -296,7 +296,7 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-bottom: 24px;
+  padding-bottom: 21px;
   padding-top: 24px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -502,7 +502,7 @@ img {
 
 .clients-list-item {
   width: calc((100% - 120px) / 6);
-  height: 86px;
+  height: 88px;
 }
 
 .customers-link {
